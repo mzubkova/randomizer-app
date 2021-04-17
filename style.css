@@ -206,7 +206,7 @@ input:focus:input-placeholder {
 
 .inner-guess {
   border: 5px solid #743ad5;
-  background-color: #ddd4ec;
+  background-color: #f3f3f3;
   width: 600px;
   border-radius: 5%;
 }
@@ -280,7 +280,11 @@ input:focus:input-placeholder {
 
 .form__input:focus {
   border-style: none;
-  outline: 2px outset #4f92d4;
+  outline: 2px outset #a841d2;
+}
+
+.form__input-max {
+  border: 2px solid #d241a3;
 }
 
 .form__input-result {
@@ -303,6 +307,8 @@ input:focus:input-placeholder {
 .form__btn--play:hover {
   background-color: #4fd4ba;
   margin: 0;
+
+  box-shadow: 0px 10px 13px -7px #000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .form__btn--reset {
@@ -314,6 +320,7 @@ input:focus:input-placeholder {
 
 .form__btn--reset:hover {
   background-color: #8741d2;
+  box-shadow: 0px 10px 13px -7px #000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .form__btn--disabled {
